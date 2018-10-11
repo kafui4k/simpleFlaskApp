@@ -1,6 +1,6 @@
 from flask import Flask, session, redirect, url_for, escape, request
 
-app = Flask(__name__)
+app = Flask(__name__) #flask app using sessions
 
 #create your secret key here
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
